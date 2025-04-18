@@ -1,0 +1,90 @@
+.stylish-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, #1E90FF, #87CEFA); /* Gradient ko'rinish */
+    padding: 15px;
+    border-radius: 10px; /* Chegaralarni yumaloqlash */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* So’ya */
+    position: sticky; /* Yuqori pozitsiya uchun */
+    top: 0;
+    z-index: 1000;
+}
+
+.stylish-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Verdana', sans-serif;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Interaktiv o‘tish */
+    border-radius: 5px; /* Ichki yumaloqlangan dizayn */
+}
+
+.stylish-nav a:hover {
+    background-color: #FFD700; /* Hover effekti uchun oltin rang */
+    transform: scale(1.2); /* Biroz kattalashtirish */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Hover so’yasi */
+}
+.about-section {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-container h2 {
+    font-size: 36px;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.about-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.about-card h3 {
+    font-size: 20px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.about-card p {
+    font-size: 16px;
+    color: #555;
+}
+
